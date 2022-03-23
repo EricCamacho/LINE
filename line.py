@@ -45,10 +45,10 @@ def filter_edges(G):
         @param G: the network tested
         @return: list of filtered edges (edges not belonging to network G)
     """   
-    nodes = [range(0, G.vcount())]
-    edges = [combinations(nodes,2)]
+    nodes = list(range(0, G.vcount()))
+    edges = list(combinations(nodes,2))
             
-    return [tuple((i,j)) for i,j in edges if not G.are_connected(i,j)]
+    return list(tuple((i,j)) for i,j in edges if not G.are_connected(i,j))
 
 ########################### HEURISTICS #############################
 ####################################################################
