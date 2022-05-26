@@ -110,7 +110,7 @@ def node_degree(G):
         for j, prob in zip(d[k],prob_dict[k]):
             list_k.append([k,j,prob])
     
-    # Separate this information into three new groups (i_prob, list_prob, list_ed)
+    # Separate this information into two new groups (list_ed,list_prob)
     list_ed = []
     list_prob = []
     for i,j,prob in list_k:
