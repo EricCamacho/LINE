@@ -10,3 +10,20 @@ Line (Link Insertion Network Enrichment) is an approach that tests a variety of 
 - line.py - Contains our approach, with the tested heuristics
 - network.py - Contains load and save network functions, functions on the network structure and characteristics, community detection algorithms, and other functions.
 - TestLine.ipynb - A simple notebook to test the heuristics present in LINE
+
+
+## Publication:
+[Enriching networks with edge insertion to improve community detection](https://link.springer.com/article/10.1007/s13278-021-00803-6)
+
+DOI: 10.1007/s13278-021-00803-6
+
+**Authors and Affiliations**
+
+Éric Tadeu Camacho de Oliveira & [Fabrício Olivetti de França](https://scholar.google.com.br/citations?hl=pt-BR&user=1FgxaZ0AAAAJ&view_op=list_works&sortby=pubdate)
+    
+Federal University of ABC (UFABC), Santo André, Brazil
+
+    
+
+
+
