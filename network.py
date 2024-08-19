@@ -152,11 +152,11 @@ def aloc_recursos(G,i,j,degrees):
 
 # Hub promoted
 def hub_promot(G,i,j,degrees):
-    return common_neighbors(G,i,j)/max(degrees[i],degrees[j])
+    return common_neighbors(G,i,j)/min(degrees[i],degrees[j])
 
 # Hub depressed
 def hub_depres(G,i,j,degrees):
-    return common_neighbors(G,i,j)/min(degrees[i],degrees[j])
+    return common_neighbors(G,i,j)/max(degrees[i],degrees[j])
 
 # Leicht-Holme-Newman
 def lhn(G,i,j,degrees):
